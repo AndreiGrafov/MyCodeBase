@@ -1,0 +1,4 @@
+{
+  "test_api_job.py::test_api_get_all_meals": true,
+  "test_api_kitchen.py::test_api_get_next_meal": true
+}

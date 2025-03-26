@@ -1,0 +1,6 @@
+[
+  "test_api_job.py::test_api_get_all_meals",
+  "test_api_kitchen.py::test_api_get_all_meals",
+  "test_api_kitchen.py::test_api_get_kitchen",
+  "test_api_kitchen.py::test_api_get_next_meal"
+]
