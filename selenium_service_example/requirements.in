@@ -1,0 +1,3 @@
+selenium
+pymssql
+boto3==1.34.3
