@@ -15,13 +15,13 @@ Additionally, the repository contains examples that can be useful for developing
 
 **Project Structure**
 
-📂 automation\_testing/         # Examples for UI test automation
+📂 automation\_testing/         - Examples for UI test automation
 
-📂 performance\_testing/        # Examples for performance testing
+📂 performance\_testing/        - Examples for performance testing
 
-📂 selenium\_service\_example/   # Useful implementations for creating services based on Selenium WebDriver
+📂 selenium\_service\_example/   - Useful implementations for creating services based on Selenium WebDriver
 
-📄 requirements.txt            # List of dependencies (note: the code is not runnable, see the note below)
+📄 requirements.txt            - List of dependencies (note: the code is not runnable, see the note below)
 
 **⚠ Important**
 
