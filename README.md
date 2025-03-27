@@ -1,4 +1,4 @@
-# MyCodeBase
+MyCodeBase
 
 Description
 
@@ -18,26 +18,25 @@ Automated programs based on web driver interactions
 
 Project Structure
 
-automation_testing/ – examples for UI test automation
+📂 automation_testing/         # Examples for UI test automation
+📂 performance_testing/        # Examples for performance testing
+📂 selenium_service_example/   # Useful implementations for creating services based on Selenium WebDriver
+📄 requirements.txt            # List of dependencies (note: the code is not runnable, see the note below)
 
-performance_testing/ – examples for performance testing
+⚠ Important
 
-selenium_service_example/ – useful implementations for creating services based on Selenium WebDriver
+Although a requirements.txt file is included, the code snippets in this repository are not designed to be executed.
+This repository was intended as a reference rather than a fully functional solution.
 
-requirements.txt – list of dependencies (note: the code is not runnable, see the note below)
+📌 How to Use
 
-Important
+📖 Study the code examples and adapt them to your needs.
 
-Although a requirements.txt file is included, the code snippets in this repository are not designed to be executed. This repository was intended as a reference rather than a fully functional solution.
+⚡ Use snippets to speed up your work on test automation projects.
 
-How to Use
+🚀 Extend and improve the presented approaches as needed.
 
-Study the code examples and adapt them to your needs.
-
-Use snippets to speed up your work on test automation projects.
-
-Extend and improve the presented approaches as needed.
-
-Contact
+📬 Contact
 
 If you have any questions or suggestions, feel free to reach out via GitHub Issues.
+
