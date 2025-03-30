@@ -1,4 +1,4 @@
-# runnable_test
+# Runnable_test
 
 This directory contains a working version of the code with a demonstration test.
 
@@ -26,6 +26,7 @@ The test demonstrates basic form filling, option selection, and verifies the suc
 
 2. Run the tests using pytest:
 
+   ```bash
    pytest test_example.py
 
 **Running in Headless Mode**
