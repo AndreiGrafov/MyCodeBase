@@ -77,23 +77,6 @@ if __name__ == "__main__":
         print("Started!")
 
         # next lines are just test data
-
-        # URL = [
-        #     # "https://www.leonardo-hotels-greece.gr/hotels-in-athens/nyx-athens/meetings",
-        #     # "https://www.nyx-hotels-greece.gr/nyx-athens/meetings",
-        #     # "https://www.nyx-hotels-cyprus.co.il/nyx-limassol/meetings",
-        #     # "https://www.nyx-hotels-cyprus.de/nyx-limassol/meetings",
-        #     # "https://www.nyx-hotels-greece.fr/nyx-athens/meetings",
-        #     # "https://margalitsc.com/real-estate-jerusalem-office/",
-        #     # "https://margalitsc.com/real-estate-jerusalem-office/",
-        #     # "https://margalitsc.com/real-estate-tel-aviv-office/",
-        #     # "https://www.ashtromport.com/accessibility/",
-        #     # "https://www.ashtromport.com/en/advanced-workspaces/",
-        #     "https://margalitsc.com/real-estate-jerusalem-office/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjI3OTciLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
-        #     # "https://www.leonardo-hotels-cyprus.co.il/hotels-in-limassol/nyx-limassol/meetings",
-        #     # "https://www.ashtromport.com/en/advanced-workspaces/",
-        #
-        # ]
         # #
         # WIDGET_ID = [
         #     # "e7b55476-952f-4f6b-bd12-08dc00805dd0",

@@ -12,8 +12,8 @@ class Base:
     def get_admin_token(self):
         res = requests.post('https://api-stage.api-testing.com/api/Users/PasswordSignIn',
                             json={
-                                "email": "grafov137@gmail.com",
-                                "password": "1SuQ97dv98",
+                                "email": "email",
+                                "password": "password",
                             })
         # print("TOKEN HAS BEEN GOT: ", res.json())
         res = json.loads(res.content)
@@ -26,8 +26,8 @@ class Base:
     def get_admin_token_prod(self):
         res = requests.post('https://prod.api-testing.com/api/Users/PasswordSignIn',
                             json={
-                                "email": "grafov137+owner@gmail.com",
-                                "password": "1SuQ97dv98",
+                                "email": "test_mail+owner@gmail.com",
+                                "password": "password",
                             })
         # print("TOKEN HAS BEEN GOT: ", res.json())
         res = json.loads(res.content)

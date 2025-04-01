@@ -1,5 +1,5 @@
 import requests
-from automation_testing.api_testing import Base
+from automation_testing.api_testing.APIs.base import Base
 import json
 
 

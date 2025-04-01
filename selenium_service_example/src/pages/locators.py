@@ -22,9 +22,9 @@ class MainPageLocators:
     IMG = (By.XPATH, '//img')
     NEXT_PAGE = (By.XPATH, '//li/a[contains(text(), "»")]')
 
-    SHADOW_HOST = (By.XPATH, '//book-a-space-widget')
+    SHADOW_HOST = (By.XPATH, '//widget')
     SHADOW_CONTENT = (By.XPATH, '//h3')
-    WIDGET_ID = (By.XPATH, "//book-a-space-widget")
+    WIDGET_ID = (By.XPATH, "//widget")
     ALLOW_ALL = (By.XPATH, "//a[text() ='Allow all']")
     ALLOW_ALL_GREECE = (By.XPATH, "//a[text() ='Να επιτρέπονται όλα']")
     ALLOW_ALL_HEBREW = (By.XPATH, "//a[text() ='לאשר הכול']")

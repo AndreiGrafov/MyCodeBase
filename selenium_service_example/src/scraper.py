@@ -29,7 +29,7 @@ class Scraper:
                 pass
             # here main functionality is implemented
             widget = str(widget)
-            WIDGET_ELEMENT = (By.XPATH, f'//book-a-space-widget[@widgetid = "{widget}"]')
+            WIDGET_ELEMENT = (By.XPATH, f'//widget[@widgetid = "{widget}"]')
             widget_element = self.app.base.find_clickable_element(WIDGET_ELEMENT, 0)
             # self.app.driver.save_screenshot('screenshot2.png')
             time.sleep(0.1)
@@ -43,7 +43,7 @@ class Scraper:
             # print("widget_id - ", widget_id)
             try:
                 # test object wrapped into shadow root, so we have to use CSS selectors
-                SHADOW_HOST = (By.XPATH, f'//book-a-space-widget[@widgetid = "{widget}"]')
+                SHADOW_HOST = (By.XPATH, f'//widget[@widgetid = "{widget}"]')
                 shadow_host = self.app.base.find_clickable_element(SHADOW_HOST, 0)
                 shadow_root = self.app.driver.execute_script('return arguments[0].shadowRoot', shadow_host)
                 # print(shadow_root)

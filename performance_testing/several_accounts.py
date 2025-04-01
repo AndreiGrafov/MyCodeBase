@@ -23,8 +23,6 @@ from config import *
 
 
 class Test(HttpUser):
-    #https://develop-api.com
-    #https://develop-api.com
     host = 'https://develop-api.com'
     wait_time = constant(0.5)
     token = ''
